@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import Home from "./pages/users/Home";
-import Login from "./pages/login";
+import Login from "./pages/Login";
 import EditMovie from "./pages/admin/EditMovie";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Layout from "./Layout";
