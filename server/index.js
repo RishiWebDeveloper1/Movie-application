@@ -18,6 +18,10 @@ app.use(cors(
 ))
 app.use(express.json());
 
+app.get('/', (req, res) => {
+    res.json("Hello Universe!")
+})
+
 app.use("/auth", authRoutes);
 app.use("/movies", movieRoutes);
 
